@@ -1,6 +1,6 @@
 @media only screen and (max-device-width: 768px) {
 	body {
-		background: radial-gradient(circle, #F5E8DC 70%, #f17474 100%) !important;
+		background: radial-gradient(circle, #ffebd7 50%, #b36cf6 150%) !important;
 
 		margin: 0 !important;
 		padding: 0 !important;
@@ -43,7 +43,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: radial-gradient(circle, #F5E8DC 75%, #f17474 100%);
+	background: radial-gradient(circle, #ffebd7 50%, #b36cf6 150%);
 	color-scheme: only light;
 	font-family: 'Cairo', sans-serif;
 }
