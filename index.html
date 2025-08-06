@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<audio id="myMusic" src="Love_files/love.mp3" loop></audio>
+<audio id="typeSound" src="sounds/type.m4a"></audio>
+<audio id="dingSound" src="sounds/ding.mp3"></audio>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+
+        .say {
+            direction: rtl;
+            text-align: right;
+        }
+
+        /* تحريك نص الساعة لأعلى 5 بكسل */
+        #clock {
+            position: relative;
+            top: -9px;
+        }
+    </style>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>For-U</title>
+    <link rel="icon" type="image/x-icon" href="Love_files/icon.png">
+    <meta name="title" content="title">
+    <link type="text/css" rel="stylesheet" href="./Love_files/default.css">
+    <script type="text/javascript" src="./Love_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex.min.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex-parser.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex-jit.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex-async.min.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="./Love_files/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./Love_files/love.js" charset="utf-8"></script>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+
+        .say {
+            direction: rtl;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+    <div id="main">
+        <div id="error">
+            Tu navegador que estás usando no es compatible con el contenido que se va a mostrar.
+            Por favor, usa Google (<a
+                href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)
+            o Firefox (<a href="http://firefox.com.cn/download/">Firefox</a>)~
+        </div>
+
+        <div id="wrap">
+            <div id="text">
+                <div id="code">
+                    <span class="say">إلى من تسكن قلبي:</span><br><br>
+                    <span class="say">منذ غيابكِ، خفت نورالـدُنية،</span><br>
+                    <span class="say">وبرَدَ قلبي من دونكِ.كل لـيلٍ</span><br>
+                    <span class="say"> أشتاق لصوتكِ،لضحكتكِ،وحتى لصمتكِ.</span><br>
+                    <span class="say">أنتِ أكثر من ذكرى،أنتِ حياة في صدري.</span><br>
+                    <span class="say">لو كان العناق حروفًا،لكتبتُه ألف مرة.</span><br>
+                    <span class="say">أنتِ الجرح الذي لا أريد له شفاء،</span><br>
+                    <span class="say">والنــظرة التــي تُحـييني.</span><br>
+                    <span class="say">أحتاجكِ... كما تحتاج الروح نبضها.</span><br>
+                    <span class="say"><span class="space"></span>— وأحبكِ... في كل حين 💖</span>
+                </div>
+
+            </div>
+            <div id="clock-box">
+                <span>"منذ ذلك اليوم... وأنا أعيش الوقت بكِ."</span>
+
+                <div id="clock"></div>
+            </div>
+
+            <canvas id="canvas" width="1100" height="680"></canvas>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
